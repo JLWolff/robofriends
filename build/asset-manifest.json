@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/static/css/main.b8004405.chunk.css",
+    "main.js": "/static/js/main.e6b73089.chunk.js",
+    "main.js.map": "/static/js/main.e6b73089.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.8f3ae637.js",
+    "runtime-main.js.map": "/static/js/runtime-main.8f3ae637.js.map",
+    "static/css/2.3c03f26f.chunk.css": "/static/css/2.3c03f26f.chunk.css",
+    "static/js/2.ce3203d5.chunk.js": "/static/js/2.ce3203d5.chunk.js",
+    "static/js/2.ce3203d5.chunk.js.map": "/static/js/2.ce3203d5.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.ca3381fc0e5d2acafa7b6c83cdf46ce0.js": "/precache-manifest.ca3381fc0e5d2acafa7b6c83cdf46ce0.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/2.3c03f26f.chunk.css.map": "/static/css/2.3c03f26f.chunk.css.map",
+    "static/css/main.b8004405.chunk.css.map": "/static/css/main.b8004405.chunk.css.map",
+    "static/js/2.ce3203d5.chunk.js.LICENSE.txt": "/static/js/2.ce3203d5.chunk.js.LICENSE.txt",
+    "static/media/app.css": "/static/media/Night Club 70s Bold.2697ffb6.woff"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.8f3ae637.js",
+    "static/css/2.3c03f26f.chunk.css",
+    "static/js/2.ce3203d5.chunk.js",
+    "static/css/main.b8004405.chunk.css",
+    "static/js/main.e6b73089.chunk.js"
+  ]
+}
