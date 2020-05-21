@@ -1,0 +1,15 @@
+@font-face {
+font-family: 'Night Club 70s Bold';
+font-style: normal;
+font-weight: normal;
+src: local('Night Club 70s Bold'), url('Night Club 70s Bold.woff') format('woff');
+}
+
+h1{
+	font-family: 'Night Club 70s Bold';
+	 background: -webkit-linear-gradient(#b2f4ff, #00DCFF);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	font-size: 4em;
+	letter-spacing: 7px;
+}
