@@ -10,6 +10,8 @@ const CardList = ({ robots }) =>{
 	 return(
 	 	<div>
 		    {cardsArray}
+		    <Card name = 'rafael rosquilds' email = 'rafambomdebola@hotmail.com' id="24"/>
+		    <Card name = 'jacen merek' email = 'jpd@hahaha.com' id="12"/>
 	    </div>
 	 );
 }
