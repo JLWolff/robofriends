@@ -3,6 +3,7 @@ import SearchBox from '../components/SearchBox'
 import CardList from '../components/CardList'
 import './app.css'
 import Scroll from '../components/Scroll'
+import ErrorBoundry from './ErrorBoundry'
 
 //document which will recive all the docuuments of the project
 //so the index just recive the app and thats it
@@ -52,7 +53,9 @@ class App extends Component {
 					<h1>Robot Friends</h1>
 					<SearchBox searchChange={this.onSearchChange}/>
 					<Scroll>
-					<CardList robots={filteredRobots} />
+					<ErrorBoundry>
+						<CardList robots={filteredRobots} />
+					</ErrorBoundry>	
 					</Scroll>	
 				</div>
 			);
