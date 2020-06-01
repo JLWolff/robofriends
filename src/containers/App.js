@@ -27,7 +27,7 @@ class App extends Component {
 	//this runs after constructor, fetch the users, in this case the API,
 	// then literally .then response.json() and setstate of robots as users.
 	componentDidMount(){
-		fetch('https://jsonplaceholder.typicode.com/users')
+		fetch('https://jlwolff.github.io/robofriends/https://jsonplaceholder.typicode.com/users')
 			.then(response=> response.json())
 			.then(users => this.setState({ robots: users}))
 		}
@@ -56,7 +56,6 @@ class App extends Component {
 					<ErrorBoundry>
 						<CardList robots={filteredRobots} /> 
 					</ErrorBoundry>	
-
 					</Scroll>	
 				</div>
 			);
