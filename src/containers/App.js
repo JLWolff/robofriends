@@ -27,9 +27,16 @@ class App extends Component {
 	//this runs after constructor, fetch the users, in this case the API,
 	// then literally .then response.json() and setstate of robots as users.
 	componentDidMount(){
-		fetch('https://jsonplaceholder.typicode.com/users')
+		fetch("https://jsonplaceholder.typicode.com/users", {
+				mode: "cors",
+				headers: {
+				"Access-Control-Allow-Origin": 
+					"https://jsonplaceholder.typicode.com/",
+				},
+			})
 			.then(response=> response.json())
 			.then(users => this.setState({ robots: users}))
+			.catch(err => alert('There was an error please reload the page'))
 		}
 		
 	//onsearchchange that is in the searchbox also sets the state, that meaning it refreshs it
