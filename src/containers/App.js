@@ -31,7 +31,7 @@ class App extends Component {
 				mode: "cors",
 				headers: {
 				"Access-Control-Allow-Origin": 
-					"https://jsonplaceholder.typicode.com/",
+					"https://jsonplaceholder.typicode.com/users",
 				},
 			})
 			.then(response=> response.json())
